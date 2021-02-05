@@ -44,7 +44,7 @@ def seeding_stats(user_id):
     torrent_dict = {}
     # get web info
     inofficial_count = 0
-    url = 'https://hdsky.me/getusertorrentlistajax.php?userid=' + user_id +'&type=adoption'
+    url = 'https://torrent_site.me/getusertorrentlistajax.php?userid=' + user_id +'&type=adoption'
     # use your own cookie
     cookies = 
     user_profile_r = requests.get(url, cookies = cookies)

@@ -17,7 +17,7 @@ def keepers_official(torrent_id):
     resolution = ''
     
     # get web info
-    url = "https://hdsky.me/details.php?id=" + torrent_id + "&hit=1"
+    url = "https://torrent_site.me/details.php?id=" + torrent_id + "&hit=1"
     # use your own cookie here
     cookies = 
     torrent_page_r = requests.get(url, cookies = cookies)

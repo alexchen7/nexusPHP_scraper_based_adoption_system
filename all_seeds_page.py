@@ -12,7 +12,7 @@ def current_seeding(user_id):
     all_seeds = {}
     
     # get web info
-    url = 'https://hdsky.me/getusertorrentlistajax.php?userid=' + user_id + '&type=seeding'
+    url = 'https://torrent_site.me/getusertorrentlistajax.php?userid=' + user_id + '&type=seeding'
     
     # use your own cookie here
     cookies = 

@@ -11,7 +11,7 @@ def send_bonus(uid, salary):
     # take 2 str of numbers and send bonus
     
     
-    url = 'https://hdsky.me/userdetails.php?id=' + uid
+    url = 'https://torrent_site.me/userdetails.php?id=' + uid
     # use your own cookie here
     cookies = 
     user_profile_r = requests.get(url, cookies = cookies)

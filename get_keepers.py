@@ -15,7 +15,7 @@ def get_keepers():
     
     while 1:
         # generating pages
-        url = 'https://hdsky.me/users.php?class=keeper&page=' + str(page_num)
+        url = 'https://torrent_site.me/users.php?class=keeper&page=' + str(page_num)
         
         # use your own cookie here
         cookies = 
